@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  list-style: none;
+}
+
+body {
+  background-image: url("netflix.jpg");
+  margin-top: 20px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.container-box {
+  width: 80%;
+  height: 95vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: auto;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+header p {
+  margin-top: 10px;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  font-family: "Bebas Neue", cursive;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+}
+
+span {
+  color: red;
+}
+
+form {
+  background-color: black;
+  width: 500px;
+  height: 800px;
+  margin: auto;
+  text-align: left;
+  padding: 25px;
+}
+
+form label {
+  color: white;
+  font-size: 20px;
+}
+
+form input,
+select {
+  text-align: left;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.movie {
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.movie input {
+  width: 20px;
+}
+
+.movie ul li {
+  text-align: left;
+  height: 20px;
+}
+
+.gender {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.gender input {
+  width: 20px;
+}
+
+.gender ul li {
+  text-align: left;
+  height: 20px;
+}
+
+.feed_back {
+  text-align: left;
+}
+
+.feed_back textarea {
+  width: 100%;
+}
+
+.button {
+  margin-top: 20px;
+}
+
+.button button {
+  width: 150px;
+  height: 40px;
+  background-color: red;
+  border-radius: 20px;
+  font-size: 20px;
+  color: white;
+  border: 0px;
+  font-family: "Bebas Neue", cursive;
+}
