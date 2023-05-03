@@ -13,7 +13,7 @@ body {
 
 .container-box {
   width: 80%;
-  height: 95vh;
+  height: 100vh;
   background-color: rgba(0, 0, 0, 0.3);
   margin: auto;
 }
@@ -81,6 +81,7 @@ select {
 .gender {
   text-align: left;
   margin-bottom: 30px;
+  color: red;
 }
 
 .gender input {
@@ -113,4 +114,10 @@ select {
   color: white;
   border: 0px;
   font-family: "Bebas Neue", cursive;
+  cursor: pointer;
+}
+
+.button button:hover {
+  color: red;
+  background-color: white;
 }
