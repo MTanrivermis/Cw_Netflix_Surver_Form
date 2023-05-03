@@ -44,6 +44,7 @@ span {
 
 form {
   background-color: black;
+  opacity: 0.8;
   width: 500px;
   height: 800px;
   margin: auto;
